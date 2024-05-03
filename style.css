@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    width: 100%;
+    height: 100vh;
+    background-color: #151714;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.inner-section{
+    width: 90%;
+    height: 90vh;
+    background-color: #fff5eb;
+    padding:15px;
+}
+.header-sec{
+    border: 1px solid #688459cb;
+    height: 10vh;
+    border-radius:10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 20px;
+    color: #3b502f;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-first{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.header-first .f1{
+    font-size: .8rem;
+}
+.header-second h1{
+    font-family: Georgia;
+    font-weight: 100;
+}
+.header-third .f1{
+    font-size: .8rem;
+}
+.header-third{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.header-center-sec{
+    border-top: 1px solid #688459cb;
+    border-right: 1px solid #688459cb;
+    border-left: 1px solid #688459cb;
+    height: 74.5vh;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.header-center-top{
+    display: flex;
+    border-bottom: 1px solid #688459cb;
+}
+.center-left{
+    background-image: url("./assets/63878a67303d077f585652a1_product-4-removebg-preview.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-right: 1px solid #688459cb;
+    width: 60%;
+    height: 60vh;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.center-right{
+    width: 40%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding-inline:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3b502f;
+}
+.center-right h1{
+    margin-block: 10px;
+    font-family: Georgia;
+    font-weight: 100;
+}
+.center-div{
+    width: 100%;
+    margin-block: 30px;
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    
+}
+.center-f1{
+    width: 40px;
+    height: 10px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #3b502f;
+}
+.center-right p{
+   font-size: .7rem;
+}
+.center-btn{
+    display: flex;
+    gap: 10px;
+}
+.center-btn .btn-1{ 
+   width: 80px;
+   height: 35px;
+   border-radius: 10px;
+   border: 1px solid #3b502f;
+   background-color: transparent;
+   letter-spacing: 5px;
+}
+.center-btn .btn-2{ 
+   width: 360px;
+   height: 35px;
+   border-radius: 10px;
+   border: 1px solid #3b502f;
+   background-color: transparent;
+   color: white;
+   background-color: #3b502f;
+   font-size: .7rem;
+}
+.text-icon{
+    margin-top: 20px;
+}
+.text-icon p a{
+    text-decoration: none;
+    font-size: .6rem;
+    color: #3b502f;
+}
+.text-icon p{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    line-height: 15px;
+    opacity: .7;
+}
+.header-center-bottom{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #3b502f;
+    padding-inline: 20px;
+    text-align: center;
+}
+.header-center-bottom h1{
+    font-family: Georgia;
+    font-weight: 100;
+    color: #3b502f;
+    font-size: 1rem;    
+}
+.header-f1{
+    width: 30%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #3b502f;
+}
+.header-f2{
+    width: 30%;
+    height:10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #3b502f;
+}
+.header-f3{
+    width: 30%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-right: 1px solid #3b502f; */
+}
+@media (max-width:768px){
+    .center-btn .btn-2{
+        width: 130px;
+    }
+    .center-btn .btn-1{
+        width: 60px;
+    }
+    .center-left img{
+        width: 300px;
+    }
+    .center-right h1{
+        font-size: 1.5rem;
+    }
+}
